@@ -1,7 +1,7 @@
 #include "PID.h"
 #include "json.hpp"
 #include <iostream>
-#include <math.h>
+#include <cmath>
 #include <string>
 #include <uWS/uWS.h>
 

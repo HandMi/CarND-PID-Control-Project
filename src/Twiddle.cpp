@@ -1,4 +1,5 @@
 #include "Twiddle.h"
+#include <cmath>
 #include <iostream>
 
 Twiddle::Twiddle()
@@ -8,7 +9,7 @@ Twiddle::Twiddle()
 Twiddle::~Twiddle() {}
 
 void Twiddle::Init(double initial_parameter) {
-  delta_ = 0.1 * std::abs(initial_parameter);
+  delta_ = 0.1 * std::fabs(initial_parameter);
 }
 
 void Twiddle::Reset(double initial_parameter) {
