@@ -1,7 +1,9 @@
 # CarND-Controls-PID
 Self-Driving Car Engineer Nanodegree Program
 
----
+## Write Up
+The write up of the completed project can be found [here](WriteUp.md).
+
 
 ## Dependencies
 
